@@ -1,0 +1,25 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.product-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.product-card img {
+	max-width: 200px;
+}
+.product-card {
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	width: 300px;
+}
+.product-card h3 {
+	color: #333;
+	margin: 0 0 10px 0;
+}
+.product-card p {
+	margin: 5px 0;
+}
